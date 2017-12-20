@@ -19,7 +19,6 @@ public class Offer49 {
                 return 0;
             sum = sum * 10 + a[i] - '0';
         }
-        System.out.println();
         return symbol == 0 ? sum : sum * (-1);
     }
 }
